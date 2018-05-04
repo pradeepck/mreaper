@@ -1,0 +1,1219 @@
+
+> reaper@0.0.1 start /home/vagrant/dataorigami/reaper
+> babel-node index.js --presets es2015,stage-2
+
+in run
+{ selector: 'none',
+  action: [Function: Fetcher],
+  params: { url: 'http://www.schoolbooks.ie' },
+  nextInstruction: 
+   { action: [Function: Selector],
+     params: { selector: '/html/body/div[6]/div[3]/div/div[1]/ul/li' },
+     nextInstruction: 
+      { action: [Function: Selector],
+        params: [Object],
+        nextInstruction: [Object] } } }
+in execute of fetch
+url
+http://www.schoolbooks.ie
+in instruction not null
+got an element
+in run
+{ action: [Function: Selector],
+  params: { selector: '/html/body/div[6]/div[3]/div/div[1]/ul/li' },
+  nextInstruction: 
+   { action: [Function: Selector],
+     params: { selector: 'div/ul/li/a', relative: true },
+     nextInstruction: 
+      { action: [Function: LinkOpener],
+        params: [Object],
+        nextInstruction: [Object] } } }
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 0
+in instruction not null
+in execute of selector
+selectorQuery
+/html/body/div[6]/div[3]/div/div[1]/ul/li
+absolute path
+evaluated
+selected elements, length 9
+in instruction not null
+got an element
+in run
+{ action: [Function: Selector],
+  params: { selector: 'div/ul/li/a', relative: true },
+  nextInstruction: 
+   { action: [Function: LinkOpener],
+     params: { handler: 'saveSubject' },
+     nextInstruction: 
+      { action: [Function: PageIterator],
+        params: [Object],
+        nextInstruction: [Object] } } }
+in execute of selector
+selectorQuery
+div/ul/li/a
+relative path
+selected elements, length 121
+in instruction not null
+got an element
+in run
+{ action: [Function: LinkOpener],
+  params: { handler: 'saveSubject' },
+  nextInstruction: 
+   { action: [Function: PageIterator],
+     params: 
+      { nextSelector: '//*[@id="shopify-section-collection-template"]/div[3]/div[2]/div/div/span[5]/a',
+        itemSelector: '//*[@id="shopify-section-collection-template"]/div[3]/div[1]/div/a' },
+     nextInstruction: 
+      { action: [Function: LinkOpener],
+        params: {},
+        nextInstruction: [Object] } } }
+in execute of Link Opener
+after evaluate
+https://www.schoolbooks.ie/collections/junior-infants-school-books
+in link opener, about to crate dustbin
+in link opener, created dustbin
+in instruction not null
+got an element
+in run
+{ action: [Function: PageIterator],
+  params: 
+   { nextSelector: '//*[@id="shopify-section-collection-template"]/div[3]/div[2]/div/div/span[5]/a',
+     itemSelector: '//*[@id="shopify-section-collection-template"]/div[3]/div[1]/div/a' },
+  nextInstruction: 
+   { action: [Function: LinkOpener],
+     params: {},
+     nextInstruction: 
+      { action: [Function: Extractor],
+        params: [Object],
+        nextInstruction: [Object] } } }
+in execute of Page Iterator
+selectorQuery
+undefined
+absolute path
+evaluated
+in instruction not null

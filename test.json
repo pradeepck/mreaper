@@ -1,0 +1,34 @@
+  {
+      "instructions": [
+        {
+          "selector": "none",
+          "action": "Fetcher",
+          "name": "FirstFetcher",
+          "params": {
+            "url": "http://www.schoolbooks.ie"
+          }
+        },
+        {
+          "action": "Selector",
+          "name": "selectMenuItems",
+          "params": {
+            "selector": "/html/body/div[6]/div[3]/div/div[1]/ul/li"
+          },
+          "andThen":[
+            {
+              "action": "Extractor",
+              "name": "extractLevel",
+              "cleanser": "cleanLevel",
+              "addResultNode": true,
+              "params": {
+                "fieldName": "schoolLevel",
+                "selector": "a",
+                "relative": true
+              }
+
+            }
+          ]
+
+        }
+      ]
+  }
