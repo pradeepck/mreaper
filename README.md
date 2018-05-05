@@ -126,6 +126,8 @@ logLevel – check Winston logging package for log levels
 
 saveAsCSV – whether a csv file is required
 
+csvFileName - name of csvFile
+cleansersDirName - cleansers to be executed after every extractor action. Cleansers can be specified in instruction file.
 recordHandlerDirName – where user supplied recordhandler files are present. A test recordhandler and test cleanser is supplied along with the package
 
 ## Selector Format

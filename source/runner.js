@@ -64,7 +64,9 @@ class Runner {
             console.log("finished instruction " + instruction.name)
             if (instruction.popAfter== true){
                 console.log("##$$$$$$$$$$%%%%%%%%%%%%%%%%popping^&&&&&&&&&&&&&&&&&&*^^*&*^%*^**")
-                this.results.pop();
+                if ( this.results.pop() == null){
+                    this.state.logger.info("popped too much!")
+                };
             }else{
                 console.log("popAfter is not true")
             }

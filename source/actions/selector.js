@@ -10,14 +10,16 @@ class Selector extends Action{
             if(state.currentInstruction.params.header != undefined)
                 selectedElements = selectedElements.slice(0,2);
             else
-                selectedElements = selectedElements.slice(1);
+                selectedElements = selectedElements.slice(0,1);
+
+        }else{
+            if(state.currentInstruction.params.header != undefined){
+                if(selectedElements.length>= 0)
+                    selectedElements = selectedElements.slice(0,1);
+            }
 
         }
         state.logger.info("selected elements, length "+ selectedElements.length)
-        if(state.currentInstruction.params.header != undefined){
-            if(selectedElements.length>= 0)
-                selectedElements.shift();
-        }
 
         console.log("returning from selector......")
         return selectedElements;

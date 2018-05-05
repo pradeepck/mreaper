@@ -29,6 +29,9 @@ class Results {
             this.current = this.start;
             return;
         }
+        if (this.current == undefined){
+            throw new Error("in results, current is undefined!")
+        }
         this.state.logger.info("adding node to results");
         let child = this.current.addChild(node);
         this.current = child;
@@ -74,9 +77,13 @@ class Results {
         }
     }
     pop(){
-        let current = this.current;
-        this.current = this.current.parent;
-        return current.data;
+        if (this.current.parent){
+            let current = this.current;
+            this.current = this.current.parent;
+            return current.data;
+        }
+        else
+            return null;
     }
 
     asJson(){

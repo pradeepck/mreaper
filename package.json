@@ -1,6 +1,6 @@
 {
   "name": "mreaper",
-  "version": "0.0.4-8",
+  "version": "0.0.4-10",
   "description": "A web crawler framework",
   "main": "dist/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     ]
   },
   "keywords": ["extractor","crawler","crawler framework","reaper","puppeteer"],
-  
+  "homepage": "https://github.com/pradeepck/mreaper",
   "author": "C K Pradeep",
   "license": "ISC",
   "dependencies": {
