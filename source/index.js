@@ -34,6 +34,10 @@ class Reaper{
             await runner.run();
 
             let resultArray = results.saveInArray();
+            console.log("#################### results");
+            console.log(JSON.stringify(results.asJson()));
+            console.log("#################### after printing results");
+
             results.saveToFile();
             this.runRecordHandlers(resultArray);
 
@@ -52,11 +56,9 @@ class Reaper{
     }
 
     runRecordHandlers(resultArray) {
-        console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-        console.log("in run record handlers");
         let recordHandlers = this.instructionManager.getRecordHandlers();
+        this.state.logger.info("in run of recordHandlers");
         console.log(resultArray)
-        console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 
         for (let row of resultArray) {
             console.log("in loop of resultArray");
@@ -73,6 +75,10 @@ class Reaper{
 
     saveAsCSV(resultArray){
         let jsonToCSV = new JsonToCSV(this.config,this.state.logger);
+        console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+        console.log("in save as CSV");
+        console.log(resultArray);
+        console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$");
         jsonToCSV.saveArrayAsCSVFile(resultArray);
     }
 

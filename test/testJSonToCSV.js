@@ -11,7 +11,9 @@ describe('JsonToCSV', function() {
     describe('convertArrayToCSV', function() {
         it('should return a string with comma separated values', function() {
             let results = new Results(config);
+            results.add({url:"schoolbooks.ie"});
             results.add({name:"Test","publisher":"Edco"});
+            results.pop();
             results.add({name:"Test1","publisher":"Gill Education"});
             let logger = winston.createLogger({
                 level:config.logLevel,
@@ -25,13 +27,18 @@ describe('JsonToCSV', function() {
             let resultArray = []
             resultArray = results.saveInArray();
             let csv = jsonToCSV.convertArrayToCSV(resultArray);
-            assert(csv=="name,publisher\r\n\"Test\",\"Edco\"\r\n\"Test1\",\"Gill Education\"","after converting results to CSV, csv with header should be returned");
+
+            assert(csv=="url,name,publisher\r\n" +
+                "\"schoolbooks.ie\",\"Test\",\"Edco\"\r\n" +
+                "\"schoolbooks.ie\",\"Test1\",\"Gill Education\"","after converting results to CSV, csv with header should be returned");
         });
     });
     describe('saveAsCSV', function() {
         it('should return a string with comma separated values', function() {
             let results = new Results(config);
+            results.add({url:"schoolbooks.ie"});
             results.add({name:"Test","publisher":"Edco"});
+            results.pop();
             results.add({name:"Test1","publisher":"Gill Education"});
             let logger = winston.createLogger({
                 level:config.logLevel,
@@ -44,8 +51,10 @@ describe('JsonToCSV', function() {
             let jsonToCSV= new JsonToCSV(config,logger);
             let resultArray = []
             jsonToCSV.saveAsCSVFile(results);
-            let csv = fs.readFileSync(config.csvFile);
-            assert(csv=="name,publisher\r\n\"Test\",\"Edco\"\r\n\"Test1\",\"Gill Education\"","after saving to csv and readig from file, it should return given string");
+            let csv = fs.readFileSync(config.csvFileName);
+            assert(csv=="url,name,publisher\r\n" +
+                "\"schoolbooks.ie\",\"Test\",\"Edco\"\r\n" +
+                "\"schoolbooks.ie\",\"Test1\",\"Gill Education\"","after saving to csv and readig from file, it should return given string");
         });
     });
 

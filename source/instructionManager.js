@@ -31,10 +31,10 @@ class InstructionManager {
     }
 
     loadCleansers(){
-        let baseName  = __dirname+"/"+this.config.cleansersDirName;
+        let baseName  = this.config.cleansersDirName;
         let cleansers = {};
 console.log("%%%%%%%%%%%%%%%%%%%%%%%%%");
-        console.log(__dirname);
+        console.log(baseName);
         console.log("%%%%%%%%%%%%%%%%%%%%%%%%%");
         fs
             .readdirSync(baseName)
@@ -42,15 +42,16 @@ console.log("%%%%%%%%%%%%%%%%%%%%%%%%%");
                 return (file.indexOf('.') !== 0) && (file !== baseName);
             })
             .forEach(function(file) {
-                var cleanser = require(path.join(baseName, file));
-                cleansers[file.slice(0,-3)]=cleanser.cleanse;
+                var cleanser = require(path.join(baseName, file)).default;
+                cleansers[file.slice(0,-3)]=cleanser;
             });
-
+console.log("cleansers");
+console.log(cleansers);
         return cleansers;
     }
 
     loadRecordHandlers(){
-        let baseName  = __dirname+"/"+this.config.recordHandlerDirName;
+        let baseName  = this.config.recordHandlerDirName;
         let recordHandlers = [];
 
         fs
@@ -83,6 +84,7 @@ console.log("%%%%%%%%%%%%%%%%%%%%%%%%%");
     }
 
     filterCleanser(key){
+        console.log("in filterCleanser, key is" + key)
         if(key=="cleanser") return true;
     }
 

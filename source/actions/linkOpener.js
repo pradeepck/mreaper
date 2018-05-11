@@ -22,7 +22,7 @@ class LinkOpener extends Action{
         state.page = page;
         let counter = 0;
         while(counter <3){
-            let result = await this.fetch(state.page,link);
+            let result = await this.fetch(state,page,link);
             if (result==true)
                 break;
             counter++
@@ -30,7 +30,7 @@ class LinkOpener extends Action{
         return [{}]
     }
 
-    async fetch(page,link){
+    async fetch(state,page,link){
         try{
             await page.goto(link, {
                 waitUntil: 'networkidle2',

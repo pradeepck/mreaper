@@ -8,6 +8,7 @@ exports.config = {
     logLevel:"info",
     saveAsCSV: true,
     csvFileName: "./results.csv",
-    recordHandlerDirName:"recordHandlers",
-    cleansersDirName:"cleansers"
+    recordHandlerDirName:__dirname+"/recordHandlers",
+    cleansersDirName:__dirname+"/cleansers",
+    filesPath:"."
 }

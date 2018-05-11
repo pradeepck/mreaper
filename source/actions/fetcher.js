@@ -9,9 +9,7 @@ class Fetcher extends Action{
         var options = {
             headless: config.headless,
             args: [
-                '--no-sandbox',
-                '--disable-extensions-except=/home/vagrant/.config/chromium/Default/Extensions/bihmplhobchoageeokmgbdihknkjbknd/1.5.13_0',
-                '--load-extension=/home/vagrant/.config/chromium/Default/Extensions/bihmplhobchoageeokmgbdihknkjbknd/1.5.13_0',
+                '--no-sandbox'
             ]
         }
         const browser = await puppeteer.launch(options);

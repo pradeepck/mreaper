@@ -7,7 +7,7 @@ var assert = chai.assert;
 describe('Instruction Manager', function() {
     describe('loadCleanser', function () {
         it('should load a cleanser and execute it', function () {
-            let instructionManager = new InstructionManager(config.reaperFile);
+            let instructionManager = new InstructionManager(config,config.reaperFile);
             let cleansers = instructionManager.getCleansers();
 
             let logger = winston.createLogger({
@@ -27,8 +27,8 @@ describe('Instruction Manager', function() {
         });
     });
     describe('loadRecordHandler', function () {
-        it('should load a cleanser and execute it', function () {
-            let instructionManager = new InstructionManager(config.reaperFile);
+        it('should load a record handler and execute it', function () {
+            let instructionManager = new InstructionManager(config,config.reaperFile);
             let recordHandlers = instructionManager.getRecordHandlers();
 
             let logger = winston.createLogger({
@@ -38,11 +38,11 @@ describe('Instruction Manager', function() {
                     new winston.transports.File({filename: config.logFileName})
                 ]
             });
-            let firstRecordHandler = recordHandlers["testRecordHandler"];
+            let firstRecordHandler = recordHandlers[0];
             let record = {"test":"Test"};
             firstRecordHandler(record);
 
-            assert(record.test=="Test", "cleanse is not executed properly");
+            assert(record.test=="Test", "recordHandler failed to load or execute");
         });
     });
 });

@@ -14,8 +14,9 @@ class PageIterator extends Action{
          */
         let pageElementsQuery =state.currentInstruction.params.selector;
         let selectedElements = await this.selectElements(state);
+        state.logger.info("selected elements, length "+ selectedElements.length)
         if (config.testMode == true && selectedElements.length >0){
-            selectedElements = selectedElements.slice(0,1);
+            selectedElements = [selectedElements[0]];
         }
         //selectedElements.splice(0,length);
         state.logger.info("got elements");
@@ -52,6 +53,10 @@ class PageIterator extends Action{
             // return true
         // else
             // return false
+        if (config.testMode == true){
+            if (this.iteratedOnce == true)
+                return false;
+        }
         let nextElementQuery =state.currentInstruction.params.nextSelector;
         state.logger.info("in more, nextselector");
         state.logger.info(nextElementQuery);
@@ -70,7 +75,9 @@ class PageIterator extends Action{
             let dustbin = new Dustbin(state);
             dustbin.addPage(state.page);
             context.forFreeing.push(dustbin)
-
+            if (config.testMode == true){
+                this.iteratedOnce = true;
+            }
             return true;
         }
 

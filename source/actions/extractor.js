@@ -46,10 +46,17 @@ class Extractor extends Action{
     }
 
     cleanse(state,text){
+        console.log("in cleanse############")
         let currentInstruction = state.currentInstruction;
         let cleanser = currentInstruction.cleanser;
-        if (cleanser != undefined)
+        console.log(cleanser);
+
+        if (cleanser != undefined){
+            console.log("cleanser found");
+            console.log("before executing cleanser " + text)
             text = cleanser(text);
+            console.log("after execution cleanser[" + text+"]");
+        }
         return text;
     }
 

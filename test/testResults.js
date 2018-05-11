@@ -26,17 +26,42 @@ describe('Results', function() {
 
         it('after popping, it should return the same object', function() {
             let node = results.pop();
-
+            console.log("################################################node")
+            console.log(node);
+            console.log("################################################node")
             assert(node.name == "Test");
         });
-        it('after popping, twice it should return undefined', function() {
+        it('after popping twice it should return first node', function() {
             let node = undefined;
             try{
-                node = results.get();
+                node = results.pop();
             }catch(error){
                 console.log("Error");
             }
-            assert(node == undefined,"node should be undefined, but it is not");
+
+            assert(results.start == null,"start should be undefined but it is not");
+        });
+
+    });
+
+    describe('save In Array', function() {
+
+        it('hierarchichal data should be properly flattened out', function() {
+            let results = new Results(config);
+            results.add({name:"Test"});
+            results.add({field1:"Test1"});
+            results.add({field2:"Test11"});
+            results.pop();
+            results.pop();
+            results.add({field1:"Test2"})
+            results.add({field2:"Test21"})
+            let resultArray = results.saveInArray();
+
+            assert(resultArray.length == 2,"array length should be 2, but it is "+ resultArray.length);
+            assert(resultArray[0].name== "Test","0th element name field should be Test, instead it is "+ resultArray[0].name);
+            assert(resultArray[0].field1== "Test1", "0th element field1 field should be Test1, instead it is "+ resultArray[0].field1);
+            assert(resultArray[0].field2== "Test11","0th element field2 field should be Test2, instead it is "+ resultArray[0].field2);
+
         });
 
     });
@@ -62,6 +87,7 @@ describe('Results', function() {
         results.add({name:"Test"});
         results.add({name:"Test1"});
 
+
         it('after adding one item to results, asJson should return proper results', function() {
             assert(JSON.stringify(results.asJson()) == "{\"name\":\"Test\",\"children\":[{\"name\":\"Test1\",\"children\":[]}]}","asJSON not working fine")
         });
@@ -85,11 +111,13 @@ describe('Results', function() {
             assert(resultArray.length==1,"after saving results with one item, array length should be 1");
         });
     });
+
     describe('saveInArray 2 objects', function() {
         it('should return an array with two rows when result has two nodes', function() {
             let results = new Results(config);
             results.add({name:"Test"});
-            results.add({name:"Test1"});
+            results.pop();
+            results.add({name1:"Test1"});
             let logger = winston.createLogger({
                 level:config.logLevel,
                 transports: [
@@ -100,7 +128,8 @@ describe('Results', function() {
 
             let resultArray = []
             resultArray = results.saveInArray();
-            assert(resultArray.length==2,"after saving results with one item, array length should be 2");
+
+            assert(resultArray.length==1,"after add/pop/add result array length should be 1");
         });
     });
 
